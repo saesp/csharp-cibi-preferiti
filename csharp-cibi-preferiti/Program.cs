@@ -11,7 +11,9 @@ for (int i = 0; i < favoriteFoods.Length; i++)
 }
 
 Console.WriteLine($"First: {favoriteFoods[0]}");
+
 Console.WriteLine("Last: " + favoriteFoods[favoriteFoods.Length - 1]);
 
+Console.WriteLine("Last: " + favoriteFoods[(favoriteFoods.Length- 1)/ 2]);
 
 
